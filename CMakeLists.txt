@@ -3,4 +3,12 @@ project(sieci)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sieci main.cpp include/storage.hpp)
+include_directories(
+        include
+)
+
+set(SOURCE_FILES
+        src/storage.cpp
+        )
+
+add_executable(sieci ${SOURCE_FILES} main.cpp)

@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sieci.dir\build.make CMakeFiles/sieci.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/storage.obj: src/storage.cpp.obj
+.PHONY : src/storage.obj
+
+# target to build an object file
+src/storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sieci.dir\build.make CMakeFiles/sieci.dir/src/storage.cpp.obj
+.PHONY : src/storage.cpp.obj
+
+src/storage.i: src/storage.cpp.i
+.PHONY : src/storage.i
+
+# target to preprocess a source file
+src/storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sieci.dir\build.make CMakeFiles/sieci.dir/src/storage.cpp.i
+.PHONY : src/storage.cpp.i
+
+src/storage.s: src/storage.cpp.s
+.PHONY : src/storage.s
+
+# target to generate assembly for a file
+src/storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sieci.dir\build.make CMakeFiles/sieci.dir/src/storage.cpp.s
+.PHONY : src/storage.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/storage.obj
+	@echo ... src/storage.i
+	@echo ... src/storage.s
 .PHONY : help
 
 

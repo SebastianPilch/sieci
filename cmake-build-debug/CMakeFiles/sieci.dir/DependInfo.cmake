@@ -9,11 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Sebastian/Desktop/ZPO/sieci/sieci/main.cpp" "C:/Users/Sebastian/Desktop/ZPO/sieci/sieci/cmake-build-debug/CMakeFiles/sieci.dir/main.cpp.obj"
+  "C:/Users/Sebastian/Desktop/ZPO/sieci/sieci/src/storage.cpp" "C:/Users/Sebastian/Desktop/ZPO/sieci/sieci/cmake-build-debug/CMakeFiles/sieci.dir/src/storage.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # The set of dependency files which are needed:

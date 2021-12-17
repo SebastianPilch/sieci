@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sieci.dir/main.cpp.obj"
+  "CMakeFiles/sieci.dir/src/storage.cpp.obj"
   "libsieci.dll.a"
   "sieci.exe"
   "sieci.exe.manifest"
